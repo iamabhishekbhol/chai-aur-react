@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import React from "react";
+//import React from "react";
 import App from "./App.jsx";
 
 function MyApp() {
@@ -11,7 +11,7 @@ function MyApp() {
     </div>
   );
 }
-const anotherUserName = "Sam";
+//const anotherUserName = "Sam";
 // const reactElement = {
 //   type: "a",
 //   props: {
@@ -21,31 +21,31 @@ const anotherUserName = "Sam";
 //   children: "Click me to visit google",
 // };
 
-const anotherElement = (
-  <a href="https://google.com" target="_blank">
-    Visit Google!
-  </a>
-);
+// const anotherElement = (
+//   <a href="https://google.com" target="_blank">
+//     Visit Google!
+//   </a>
+// );
 
-const reactElement = React.createElement(
-  "div",
-  null,
-  React.createElement(
-    "a",
-    {
-      href: "https://www.google.com",
-      target: "_blank",
-    },
-    "Click me to go to google"
-  ),
-  React.createElement(
-    "p",
-    null,
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptates modi, iure quas aperiam dolor quia cum eos similique ullam. Mollitia placeat accusamus et dolor facere illum dolorum quae error.",
-    <br />,
-    anotherUserName
-  )
-);
+// const reactElement = React.createElement(
+//   "div",
+//   null,
+//   React.createElement(
+//     "a",
+//     {
+//       href: "https://www.google.com",
+//       target: "_blank",
+//     },
+//     "Click me to go to google"
+//   ),
+//   React.createElement(
+//     "p",
+//     null,
+//     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptates modi, iure quas aperiam dolor quia cum eos similique ullam. Mollitia placeat accusamus et dolor facere illum dolorum quae error.",
+//     <br />,
+//     anotherUserName
+//   )
+// );
 
 //createRoot(document.getElementById("root")).render(<MyApp />);
 createRoot(document.getElementById("root")).render(<MyApp />);
