@@ -9,7 +9,16 @@ function App() {
   const addValue = () => {
     if (counter == 20) return;
     counter = counter + 1;
-    setCounter(counter);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
     console.log("Add Value Clicked!!", Math.random(), "counterVal:", counter);
   };
   const remValue = () => {
